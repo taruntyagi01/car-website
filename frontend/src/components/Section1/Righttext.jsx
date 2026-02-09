@@ -8,55 +8,62 @@ const Righttext = ({ users }) => {
     return (
       <Link to={`/country/${countrySlug}`} className="shrink-0">
         <div
-          className="
-            w-72 sm:w-80
-            bg-black/60
-            rounded-2xl
-            overflow-hidden
-            shadow-lg
-            transition
-            hover:scale-[1.03]
-          "
+  className="
+    relative
+    w-72 sm:w-80 md:w-[22rem]
+    h-[450px] sm:h-[500px] md:h-[550px]  /* taller cards */
+    rounded-2xl
+    overflow-hidden
+    shadow-xl
+    transition
+    hover:scale-[1.03]
+  "
+>
+  {/* BACKGROUND IMAGE */}
+  <img
+    src={img}
+    alt={tag}
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* DARK GRADIENT OVERLAY */}
+  <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
+
+  {/* CONTENT */}
+  <div className="relative z-10 h-full p-4 sm:p-6 flex flex-col justify-between">
+    {/* Index */}
+    <h1 className="bg-rose-300 text-black rounded-full h-7 w-7 flex items-center justify-center text-sm font-bold">
+      {id + 1}
+    </h1>
+
+    {/* Bottom Content */}
+    <div>
+      <p className="text-sm sm:text-base text-white leading-relaxed mb-6">
+        {intro}
+      </p>
+
+      <div className="flex items-center justify-between">
+        <button
+          style={{ backgroundColor: color, color: textColor }}
+          className="text-xs sm:text-sm font-medium px-4 sm:px-6 py-2 rounded-full"
         >
-          {/* IMAGE */}
-          <div className="w-full h-48 sm:h-56 md:h-64">
-            <img
-              src={img}
-              alt={tag}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          {tag}
+        </button>
 
-          {/* TEXT SECTION */}
-          <div className="p-4 sm:p-5 flex flex-col justify-between gap-4">
-            <h1 className="bg-rose-300 text-black rounded-full h-7 w-7 flex items-center justify-center text-sm font-bold">
-              {id + 1}
-            </h1>
+        <button className="bg-blue-700 text-white p-2 rounded-full">
+          <i className="ri-arrow-right-line" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <p className="text-sm sm:text-base text-gray-200 leading-relaxed">
-              {intro}
-            </p>
-
-            <div className="flex items-center justify-between">
-              <button
-                style={{ backgroundColor: color, color: textColor }}
-                className="text-xs sm:text-sm font-medium px-4 py-1.5 rounded-full"
-              >
-                {tag}
-              </button>
-
-              <button className="bg-blue-700 text-white p-2 rounded-full">
-                <i className="ri-arrow-right-line" />
-              </button>
-            </div>
-          </div>
-        </div>
       </Link>
     );
   };
 
   return (
-    <div
+    <div id="right"
       className="
         w-full lg:w-2/3
         px-4 sm:px-6

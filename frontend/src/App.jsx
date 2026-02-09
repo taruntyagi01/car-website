@@ -1,6 +1,6 @@
 import React from 'react'
 import Section1 from './components/Section1/Section1'
-import Home from './components/homepage/home'
+import Home from './components/homepage/Home'
 import { Routes,Route } from 'react-router-dom'
 import Signin from './components/Section1/Signin'
 import Signup from './components/Section1/Signup'
