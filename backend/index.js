@@ -12,13 +12,15 @@ require("dotenv").config();
 //extract port number
 const PORT = process.env.PORT || 5000
 
+//db connection
+const {dbConnect} = require("./config/dbConnect");
+dbConnect();
+
 //import routes and mount it
 const authRoutes = require("./routes/AuthRoutes");
 app.use("/api/v1/", authRoutes);
 
-//db connection
-const {dbConnect} = require("./config/dbConnect");
-dbConnect();
+
 
 //default route
 app.get("/", (req, res) => {
