@@ -1736,7 +1736,806 @@ export const carData = [
       ]
     }
   ]
+},{
+  country: "Korean Brands",
+  buttonColor: "bg-blue-700",
+  description: "South Korea combines cutting-edge technology, bold design, and strong performance at great value.",
+  brands: [
+    {
+      name: "Hyundai",
+      founded: 1967,
+      headquarters: "Seoul, South Korea",
+      slogan: "Progress for Humanity",
+      logo: "https://images.unsplash.com/photo-1588036873025-7261a5647adf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHl1bmRhaXxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Ioniq 5",
+          type: "Electric Crossover",
+          power: "320 hp",
+          zeroToHundred: "5.2s",
+          topSpeed: "185 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Modern"]
+        },
+        {
+          model: "Elantra N",
+          type: "Performance Sedan",
+          power: "276 hp",
+          zeroToHundred: "5.3s",
+          topSpeed: "250 km/h",
+          fuel: "Petrol",
+          tags: ["Sport", "Fun"]
+        }
+      ]
+    },
+    {
+      name: "Kia",
+      founded: 1944,
+      headquarters: "Seoul, South Korea",
+      slogan: "Movement That Inspires",
+      logo: "https://images.unsplash.com/photo-1579377090611-3adf9bbdba07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lhfGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "EV6 GT",
+          type: "Electric Performance SUV",
+          power: "576 hp",
+          zeroToHundred: "3.5s",
+          topSpeed: "260 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Performance"]
+        }
+      ]
+    },
+    {
+      name: "Genesis",
+      founded: 2015,
+      headquarters: "Seoul, South Korea",
+      slogan: "Athletic Elegance",
+      logo: "https://images.unsplash.com/photo-1579301768795-3226cb812b36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2VuZXNpc3xlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "GV80",
+          type: "Luxury SUV",
+          power: "375 hp",
+          zeroToHundred: "5.5s",
+          topSpeed: "240 km/h",
+          fuel: "Petrol",
+          tags: ["Luxury", "Premium"]
+        }
+      ]
+    }
+  ]
 }
+,{
+  country: "Brazil Brands",
+  buttonColor: "bg-green-700",
+  description: "Brazil focuses on mass-market vehicles, flexible fuel technology, and rugged mobility solutions.",
+  brands: [
+    {
+      name: "Fiat Brazil",
+      founded: 1976,
+      headquarters: "Betim, Brazil",
+      slogan: "Driven by Passion",
+      logo: "https://unsplash.com/photos/person-riding-fiat-car-during-daytime-o7fqb-kZw2Y",
+      cars: [
+        {
+          model: "Strada",
+          type: "Pickup Truck",
+          power: "130 hp",
+          zeroToHundred: "9.5s",
+          topSpeed: "180 km/h",
+          fuel: "Petrol / Ethanol",
+          tags: ["Pickup", "Popular"]
+        },
+        {
+          model: "Pulse",
+          type: "Compact SUV",
+          power: "185 hp",
+          zeroToHundred: "7.6s",
+          topSpeed: "195 km/h",
+          fuel: "Petrol / Ethanol",
+          tags: ["Urban", "SUV"]
+        }
+      ]
+    },
+    {
+      name: "Volkswagen Brazil",
+      founded: 1953,
+      headquarters: "São Bernardo do Campo, Brazil",
+      slogan: "Drive Your Future",
+      logo: "https://images.unsplash.com/photo-1561517118-6068d92c6474?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dm9sa3N3YWdlbnxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Gol",
+          type: "Hatchback",
+          power: "110 hp",
+          zeroToHundred: "10.0s",
+          topSpeed: "185 km/h",
+          fuel: "Petrol / Ethanol",
+          tags: ["Budget", "Reliable"]
+        },
+        {
+          model: "Nivus",
+          type: "Compact SUV",
+          power: "128 hp",
+          zeroToHundred: "9.8s",
+          topSpeed: "189 km/h",
+          fuel: "Petrol / Ethanol",
+          tags: ["Crossover", "Modern"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "France Brands",
+  buttonColor: "bg-blue-700",
+  description: "France focuses on comfort, bold design, innovative engineering, and some of the world’s most extreme performance cars.",
+  brands: [
+    {
+      name: "Renault",
+      founded: 1899,
+      headquarters: "Boulogne-Billancourt, France",
+      slogan: "Passion for Life",
+      logo: "https://images.unsplash.com/photo-1679398175192-92238aac595b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVuYXVsdHxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Clio",
+          type: "Hatchback",
+          power: "99 hp",
+          zeroToHundred: "11.8s",
+          topSpeed: "180 km/h",
+          fuel: "Petrol",
+          tags: ["City", "Efficient"]
+        },
+        {
+          model: "Megane E-Tech",
+          type: "Electric Hatchback",
+          power: "220 hp",
+          zeroToHundred: "7.4s",
+          topSpeed: "160 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Modern"]
+        },
+        {
+          model: "Austral",
+          type: "Hybrid SUV",
+          power: "200 hp",
+          zeroToHundred: "8.5s",
+          topSpeed: "205 km/h",
+          fuel: "Hybrid",
+          tags: ["Family", "Comfort"]
+        }
+      ]
+    },
+
+    {
+      name: "Peugeot",
+      founded: 1810,
+      headquarters: "Sochaux, France",
+      slogan: "Motion & Emotion",
+      logo: "https://unsplash.com/photos/the-front-of-a-blue-car-9msyGvNQZjY",
+      cars: [
+        {
+          model: "208",
+          type: "Hatchback",
+          power: "100 hp",
+          zeroToHundred: "10.9s",
+          topSpeed: "188 km/h",
+          fuel: "Petrol",
+          tags: ["Stylish", "Urban"]
+        },
+        {
+          model: "3008",
+          type: "SUV",
+          power: "180 hp",
+          zeroToHundred: "8.9s",
+          topSpeed: "210 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["SUV", "Comfort"]
+        },
+        {
+          model: "e-208",
+          type: "Electric Hatchback",
+          power: "136 hp",
+          zeroToHundred: "8.1s",
+          topSpeed: "150 km/h",
+          fuel: "Electric",
+          tags: ["EV", "City"]
+        }
+      ]
+    },
+
+    {
+      name: "Citroën",
+      founded: 1919,
+      headquarters: "Paris, France",
+      slogan: "Inspired by You",
+      logo: "https://images.unsplash.com/photo-1605007728419-d4203400355d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0cm9lbnxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "C3",
+          type: "Hatchback",
+          power: "82 hp",
+          zeroToHundred: "12.3s",
+          topSpeed: "170 km/h",
+          fuel: "Petrol",
+          tags: ["Comfort", "City"]
+        },
+        {
+          model: "C5 Aircross",
+          type: "SUV",
+          power: "180 hp",
+          zeroToHundred: "8.6s",
+          topSpeed: "215 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["Comfort", "Family"]
+        }
+      ]
+    },
+
+    {
+      name: "Bugatti",
+      founded: 1909,
+      headquarters: "Molsheim, France",
+      slogan: "Create the Incomparable",
+      logo: "https://images.unsplash.com/photo-1560194401-f4164ccc074a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVnZ2F0aXxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Chiron Super Sport",
+          type: "Hypercar",
+          power: "1600 hp",
+          zeroToHundred: "2.4s",
+          topSpeed: "490 km/h",
+          fuel: "Petrol",
+          tags: ["Hypercar", "Luxury"]
+        },
+        {
+          model: "Mistral",
+          type: "Roadster Hypercar",
+          power: "1600 hp",
+          zeroToHundred: "2.5s",
+          topSpeed: "420 km/h",
+          fuel: "Petrol",
+          tags: ["Exclusive", "Extreme"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "China Brands",
+  buttonColor: "bg-red-700",
+  description: "China is a global leader in electric vehicles, smart mobility, and next-generation automotive technology.",
+  brands: [
+    {
+      name: "BYD",
+      founded: 1995,
+      headquarters: "Shenzhen, China",
+      slogan: "Build Your Dreams",
+      logo: "https://images.unsplash.com/photo-1694027655519-016c93b014e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QllEfGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "Seal",
+          type: "Electric Sedan",
+          power: "530 hp",
+          zeroToHundred: "3.8s",
+          topSpeed: "180 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Performance"]
+        },
+        {
+          model: "Atto 3",
+          type: "Electric SUV",
+          power: "201 hp",
+          zeroToHundred: "7.3s",
+          topSpeed: "160 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Family"]
+        },
+        {
+          model: "Han EV",
+          type: "Electric Sedan",
+          power: "517 hp",
+          zeroToHundred: "3.9s",
+          topSpeed: "180 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Luxury"]
+        }
+      ]
+    },
+
+    {
+      name: "NIO",
+      founded: 2014,
+      headquarters: "Shanghai, China",
+      slogan: "Blue Sky Coming",
+      logo: "https://images.unsplash.com/photo-1669625301718-bb32cd7050a3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TklPfGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "ET5",
+          type: "Electric Sedan",
+          power: "483 hp",
+          zeroToHundred: "4.0s",
+          topSpeed: "200 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Tech"]
+        },
+        {
+          model: "ES8",
+          type: "Electric SUV",
+          power: "644 hp",
+          zeroToHundred: "4.1s",
+          topSpeed: "200 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Luxury"]
+        }
+      ]
+    },
+
+    {
+      name: "XPeng",
+      founded: 2014,
+      headquarters: "Guangzhou, China",
+      slogan: "Intelligence in Motion",
+      logo: "https://images.unsplash.com/photo-1719891940866-ac2613ef0af2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8WHBlbmd8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "P7",
+          type: "Electric Sports Sedan",
+          power: "430 hp",
+          zeroToHundred: "4.3s",
+          topSpeed: "200 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Smart"]
+        },
+        {
+          model: "G9",
+          type: "Electric SUV",
+          power: "551 hp",
+          zeroToHundred: "3.9s",
+          topSpeed: "200 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Tech"]
+        }
+      ]
+    },
+
+    {
+      name: "Geely",
+      founded: 1986,
+      headquarters: "Hangzhou, China",
+      slogan: "Driving the Future",
+      logo: "https://images.unsplash.com/photo-1757922588182-7fedfe372609?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2VlbHl8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "Coolray",
+          type: "Compact SUV",
+          power: "177 hp",
+          zeroToHundred: "7.9s",
+          topSpeed: "195 km/h",
+          fuel: "Petrol",
+          tags: ["SUV", "Popular"]
+        },
+        {
+          model: "Geometry A",
+          type: "Electric Sedan",
+          power: "201 hp",
+          zeroToHundred: "8.8s",
+          topSpeed: "150 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Urban"]
+        }
+      ]
+    },
+
+    {
+      name: "Hongqi",
+      founded: 1958,
+      headquarters: "Changchun, China",
+      slogan: "Luxury in Every Detail",
+      logo: "https://images.unsplash.com/photo-1713711839699-3dc0ecee143a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9uZ3FpfGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "H9",
+          type: "Luxury Sedan",
+          power: "315 hp",
+          zeroToHundred: "7.1s",
+          topSpeed: "230 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["Luxury", "Executive"]
+        },
+        {
+          model: "E-HS9",
+          type: "Electric Luxury SUV",
+          power: "543 hp",
+          zeroToHundred: "4.8s",
+          topSpeed: "200 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Luxury"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "Spain Brands",
+  buttonColor: "bg-red-600",
+  description: "Spain blends sporty design, everyday usability, and modern performance with a growing electric future.",
+  brands: [
+    {
+      name: "SEAT",
+      founded: 1950,
+      headquarters: "Martorell, Spain",
+      slogan: "Auto emoción",
+      logo: "https://images.unsplash.com/photo-1620397567422-b1be3a2b618a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhdCUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Ibiza",
+          type: "Hatchback",
+          power: "110 hp",
+          zeroToHundred: "9.5s",
+          topSpeed: "195 km/h",
+          fuel: "Petrol",
+          tags: ["City", "Reliable"]
+        },
+        {
+          model: "Leon",
+          type: "Hatchback",
+          power: "150 hp",
+          zeroToHundred: "8.4s",
+          topSpeed: "215 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["Sporty", "Family"]
+        },
+        {
+          model: "Arona",
+          type: "Compact SUV",
+          power: "110 hp",
+          zeroToHundred: "10.0s",
+          topSpeed: "190 km/h",
+          fuel: "Petrol",
+          tags: ["Urban", "SUV"]
+        }
+      ]
+    },
+
+    {
+      name: "CUPRA",
+      founded: 2018,
+      headquarters: "Martorell, Spain",
+      slogan: "Unconventional Challenger Brand",
+      logo: "https://images.unsplash.com/photo-1678869551017-23cb6c8d9453?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwcmF8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "Formentor VZ5",
+          type: "Performance SUV",
+          power: "390 hp",
+          zeroToHundred: "4.2s",
+          topSpeed: "250 km/h",
+          fuel: "Petrol",
+          tags: ["Performance", "Sport"]
+        },
+        {
+          model: "Born",
+          type: "Electric Hatchback",
+          power: "231 hp",
+          zeroToHundred: "6.6s",
+          topSpeed: "160 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Modern"]
+        }
+      ]
+    },
+
+    {
+      name: "Hispano Suiza",
+      founded: 1904,
+      headquarters: "Barcelona, Spain",
+      slogan: "The Rebirth of a Legend",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/2021_Hispano-Suiza_Carmen.jpg",
+      cars: [
+        {
+          model: "Carmen Boulogne",
+          type: "Electric Hyper GT",
+          power: "1114 hp",
+          zeroToHundred: "2.6s",
+          topSpeed: "290 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Hypercar"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "Canada Brands",
+  buttonColor: "bg-red-600",
+  description: "Canada plays a key role in automotive manufacturing, electric mobility, and utility-focused vehicle innovation.",
+  brands: [
+    {
+      name: "Magna Steyr Canada",
+      founded: 1957,
+      headquarters: "Aurora, Ontario, Canada",
+      slogan: "Driving Innovation",
+      logo: "https://autodesignmagazine.com/wp-content/uploads/2016/01/2015051101_Magna_MilaPlus.jpg",
+      cars: [
+        {
+          model: "Magna EtelligentForce",
+          type: "Electric Pickup Concept",
+          power: "570 hp",
+          zeroToHundred: "6.0s",
+          topSpeed: "180 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Concept"]
+        }
+      ]
+    },
+
+    {
+      name: "Lion Electric",
+      founded: 2008,
+      headquarters: "Saint-Jérôme, Quebec, Canada",
+      slogan: "Accelerating the Transition to Zero-Emission Transportation",
+      logo: "https://images.unsplash.com/photo-1611460470622-edf833bb0e6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlvbiUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "LionC",
+          type: "Electric Truck",
+          power: "536 hp",
+          zeroToHundred: "N/A",
+          topSpeed: "105 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Commercial"]
+        }
+      ]
+    },
+
+    {
+      name: "Campagna",
+      founded: 1990,
+      headquarters: "Magog, Quebec, Canada",
+      slogan: "Ride the Future",
+      logo: "https://trex.campagnamotors.com/images/01-2013-campagna-t-rex-16s_1.png?_wwcv=189",
+      cars: [
+        {
+          model: "T-Rex 16S",
+          type: "Three-Wheel Performance Car",
+          power: "345 hp",
+          zeroToHundred: "3.9s",
+          topSpeed: "240 km/h",
+          fuel: "Petrol",
+          tags: ["Performance", "Unique"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "Australia Brands",
+  buttonColor: "bg-yellow-700",
+  description: "Australia is known for powerful sedans, utility vehicles, and a strong automotive performance heritage.",
+  brands: [
+    {
+      name: "Holden",
+      founded: 1856,
+      headquarters: "Melbourne, Australia",
+      slogan: "Football, Meat Pies, Kangaroos & Holden Cars",
+      logo: "https://plus.unsplash.com/premium_photo-1677564923729-5eeacd594495?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG9sZGVufGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "Commodore SS",
+          type: "Performance Sedan",
+          power: "415 hp",
+          zeroToHundred: "4.9s",
+          topSpeed: "250 km/h",
+          fuel: "Petrol",
+          tags: ["Muscle", "Iconic"]
+        },
+        {
+          model: "Ute SS",
+          type: "Performance Utility",
+          power: "362 hp",
+          zeroToHundred: "5.5s",
+          topSpeed: "240 km/h",
+          fuel: "Petrol",
+          tags: ["Utility", "Performance"]
+        }
+      ]
+    },
+
+    {
+      name: "Ford Australia",
+      founded: 1925,
+      headquarters: "Melbourne, Australia",
+      slogan: "Built Ford Tough",
+      logo: "https://images.unsplash.com/photo-1708849894321-2c9bc515df0e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9yZCUyMGF1c3RyYWxpYXxlbnwwfHwwfHx8MA%3D%3D",
+      cars: [
+        {
+          model: "Falcon XR8",
+          type: "Performance Sedan",
+          power: "335 hp",
+          zeroToHundred: "5.0s",
+          topSpeed: "250 km/h",
+          fuel: "Petrol",
+          tags: ["Performance", "Classic"]
+        },
+        {
+          model: "Ranger Raptor",
+          type: "Off-road Pickup",
+          power: "405 hp",
+          zeroToHundred: "5.8s",
+          topSpeed: "180 km/h",
+          fuel: "Petrol",
+          tags: ["Offroad", "Rugged"]
+        }
+      ]
+    },
+
+    {
+      name: "HSV (Holden Special Vehicles)",
+      founded: 1987,
+      headquarters: "Clayton, Australia",
+      slogan: "Pure Performance",
+      logo: "https://images.unsplash.com/photo-1593819942238-af8536d15e21?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aHN2fGVufDB8fDB8fHww",
+      cars: [
+        {
+          model: "GTSR W1",
+          type: "Super Sedan",
+          power: "635 hp",
+          zeroToHundred: "4.2s",
+          topSpeed: "290 km/h",
+          fuel: "Petrol",
+          tags: ["Super Sedan", "Rare"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "Romania Brands",
+  buttonColor: "bg-indigo-700",
+  description: "Romania is known for affordable, rugged, and practical cars with a strong focus on value and durability.",
+  brands: [
+    {
+      name: "Dacia",
+      founded: 1966,
+      headquarters: "Mioveni, Romania",
+      slogan: "Good Thinking",
+      logo: "https://images.unsplash.com/photo-1706589270240-b5696c0915b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFjaWF8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "Duster",
+          type: "Compact SUV",
+          power: "150 hp",
+          zeroToHundred: "9.7s",
+          topSpeed: "200 km/h",
+          fuel: "Petrol / Diesel",
+          tags: ["SUV", "Affordable"]
+        },
+        {
+          model: "Sandero",
+          type: "Hatchback",
+          power: "90 hp",
+          zeroToHundred: "11.7s",
+          topSpeed: "178 km/h",
+          fuel: "Petrol",
+          tags: ["Budget", "City"]
+        },
+        {
+          model: "Jogger",
+          type: "MPV",
+          power: "110 hp",
+          zeroToHundred: "10.0s",
+          topSpeed: "183 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["Family", "Practical"]
+        }
+      ]
+    },
+
+    {
+      name: "ARO",
+      founded: 1957,
+      headquarters: "Câmpulung, Romania",
+      slogan: "Built for the Toughest Roads",
+      logo: "https://images.unsplash.com/photo-1606640104902-61d8fe6dd947?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      cars: [
+        {
+          model: "ARO 244",
+          type: "Off-road SUV",
+          power: "90 hp",
+          zeroToHundred: "14.5s",
+          topSpeed: "145 km/h",
+          fuel: "Petrol / Diesel",
+          tags: ["Offroad", "Classic"]
+        }
+      ]
+    }
+  ]
+}
+,{
+  country: "Czech Brands",
+  buttonColor: "bg-emerald-700",
+  description: "The Czech Republic is known for strong engineering, reliability, and practical cars with excellent value.",
+  brands: [
+    {
+      name: "Škoda",
+      founded: 1895,
+      headquarters: "Mladá Boleslav, Czech Republic",
+      slogan: "Simply Clever",
+      logo: "https://images.unsplash.com/photo-1541845597-4b8d7bf81ebf?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      cars: [
+        {
+          model: "Octavia",
+          type: "Sedan",
+          power: "150 hp",
+          zeroToHundred: "8.4s",
+          topSpeed: "223 km/h",
+          fuel: "Petrol / Diesel",
+          tags: ["Family", "Reliable"]
+        },
+        {
+          model: "Superb",
+          type: "Luxury Sedan",
+          power: "190 hp",
+          zeroToHundred: "7.7s",
+          topSpeed: "240 km/h",
+          fuel: "Petrol / Hybrid",
+          tags: ["Comfort", "Executive"]
+        },
+        {
+          model: "Enyaq iV",
+          type: "Electric SUV",
+          power: "299 hp",
+          zeroToHundred: "6.5s",
+          topSpeed: "180 km/h",
+          fuel: "Electric",
+          tags: ["EV", "Family"]
+        }
+      ]
+    },
+
+    {
+      name: "Tatra",
+      founded: 1850,
+      headquarters: "Kopřivnice, Czech Republic",
+      slogan: "The Truck Makers",
+      logo: "https://images.unsplash.com/photo-1564215492771-457036c8aabd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGF0cmElMjBjYXJ8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "Tatra Phoenix",
+          type: "Heavy Duty Truck",
+          power: "530 hp",
+          zeroToHundred: "N/A",
+          topSpeed: "120 km/h",
+          fuel: "Diesel",
+          tags: ["Truck", "Industrial"]
+        }
+      ]
+    },
+
+    {
+      name: "Praga",
+      founded: 1907,
+      headquarters: "Prague, Czech Republic",
+      slogan: "Cars • Aircraft • Racing",
+      logo: "https://images.unsplash.com/photo-1721682830996-565bc4696949?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJhZ2ElMjBjYXJ8ZW58MHx8MHx8fDA%3D",
+      cars: [
+        {
+          model: "Praga Bohema",
+          type: "Track Hypercar",
+          power: "700 hp",
+          zeroToHundred: "2.3s",
+          topSpeed: "317 km/h",
+          fuel: "Petrol",
+          tags: ["Track", "Extreme"]
+        }
+      ]
+    }
+  ]
+}
+
 
 
 

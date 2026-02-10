@@ -52,13 +52,68 @@ tag:'Sweden Brands',
   color:'lightgreen',
    textColor:'black',
 },{
+  img: 'https://images.unsplash.com/photo-1714438064209-7c509b0fb69b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  intro: 'Explore South Korean car brands known for modern design, advanced technology, and strong value, including Hyundai, Kia, and Genesis.',
+  color: '#0A3D62',
+  tag: 'Korean Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1727098353953-929512ce7b90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJ5ZHxlbnwwfHwwfHx8MA%3D%3D',
+  intro: 'Explore Chinese car brands rapidly growing in electric vehicles and smart mobility, including BYD, NIO, Geely, and XPeng.',
+  color: '#E84393',
+  tag: 'China Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1620163510571-2d5e8501e2d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJvbGxlcnxlbnwwfHwwfHx8MA%3D%3D',
+  intro: 'Explore Brazilian automotive brands and manufacturing hubs focused on flexible fuel technology and mass-market vehicles.',
+  color: '#009432',
+  tag: 'Brazil Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1678869598977-bb5c3f5795b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3VwcmF8ZW58MHx8MHx8fDA%3D',
+  intro: 'Explore Spanish automotive brands blending performance and design heritage, including SEAT and CUPRA.',
+  color: '#C0392B',
+  tag: 'Spain Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1550615162-ed342f474ebf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNrb2RhfGVufDB8fDB8fHww',
+  intro: 'Explore Czech car brands known for reliability and engineering excellence, led by Škoda.',
+  color: '#145A32',
+  tag: 'Czech Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1728472804219-0b23a40e7ae3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFjaWF8ZW58MHx8MHx8fDA%3D',
+  intro: 'Explore Romanian car brands focused on affordability and rugged performance, especially Dacia.',
+  color: '#1E272E',
+  tag: 'Romania Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=1935&auto=format&fit=crop',
+  intro: 'Explore Australian automotive heritage known for powerful sedans and utility vehicles, including Holden and Ford Australia.',
+  color: '#273C75',
+  tag: 'Australia Brands',
+  textColor: 'white',
+},
+{
+  img: 'https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1935&auto=format&fit=crop',
+  intro: 'Explore Canadian automotive manufacturing excellence, supporting major global brands with advanced production and EV innovation.',
+  color: '#B71540',
+  tag: 'Canada Brands',
+  textColor: 'white',
+},
+,{
   img:'https://images.unsplash.com/photo-1696233016084-30c8345d85ff?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   intro:'Explore British luxury and performance car brands known for handcrafted elegance and motorsport excellence, including Rolls-Royce, Bentley, Aston Martin, and McLaren.',
   tag:'UK Brands',
   color:'royalblue',
    textColor:'#2D1B1B'
 }
-
 
 ]
 
