@@ -31,7 +31,7 @@ return {
 async function sendData() {
 try {
 const res = await axios.post(
-"http://localhost:4000/api/v1/signup",
+"https://car-website-0br7.onrender.com/api/v1/signup",
 {
 name: formData.name,
 email: formData.email,
